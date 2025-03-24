@@ -1,0 +1,7 @@
+healthcheck:
+  handler: src/functions/healthcheck.healthcheck
+  events:
+    - http:
+        path: health-check
+        method: get
+        cors: true

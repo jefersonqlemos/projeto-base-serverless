@@ -1,0 +1,13 @@
+service: projeto-base-serverless
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+
+configValidationMode: error
+
+functions: ${file(./src/functions/functions.yaml)}
+
+plugins:
+  - serverless-offline
+  - serverless-plugin-typescript
