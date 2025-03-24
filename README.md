@@ -1,3 +1,5 @@
+Other Examples: https://github.com/serverless/examples/tree/v3/aws-node-rest-api-typescript
+
 [![sfv4_00000](https://github.com/serverless/serverless/assets/2752551/6cf62477-7834-49dc-9a41-f71b76d70a18)](https://github.com/serverless/serverless/tree/v4.0)
 
 
@@ -206,4 +208,4 @@ Serverless is licensed under the [MIT License](./LICENSE.txt).
 
 All files located in the node_modules and external directories are externally maintained libraries used by this software which have their own licenses; we recommend you read them, as their terms may differ from the terms in the MIT License.
 
-Other Examples: https://github.com/serverless/examples/tree/v3/aws-node-rest-api-typescript
+
