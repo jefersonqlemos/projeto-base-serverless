@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../src/functions/healthcheck.ts"],
+  "sourcesContent": ["import { APIGatewayEvent, APIGatewayProxyResult } from \"aws-lambda\";\r\n\r\nclass Handler {\r\n  public async healthcheck(event: APIGatewayEvent): Promise<APIGatewayProxyResult> {\r\n    return {\r\n      statusCode: 200,\r\n      headers: {\r\n        'Access-Control-Allow-Origin': '*',\r\n      },\r\n      body: JSON.stringify({\r\n        message: 'Ok'\r\n      })\r\n    };\r\n  }\r\n}\r\n\r\nconst handler = new Handler();\r\nexport const healthcheck = handler.healthcheck;"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAEA,IAAM,UAAN,MAAc;AAAA,EACZ,MAAa,YAAY,OAAwD;AAC/E,WAAO;AAAA,MACL,YAAY;AAAA,MACZ,SAAS;AAAA,QACP,+BAA+B;AAAA,MACjC;AAAA,MACA,MAAM,KAAK,UAAU;AAAA,QACnB,SAAS;AAAA,MACX,CAAC;AAAA,IACH;AAAA,EACF;AACF;AAEA,IAAM,UAAU,IAAI,QAAQ;AACrB,IAAM,cAAc,QAAQ;",
+  "names": []
+}

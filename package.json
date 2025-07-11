@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1692.0",
+    "@aws-sdk/client-s3": "^3.844.0",
     "aws-serverless-typescript-api": "file:",
-    "serverless": "^3.0.0"
+    "serverless": "^4.17.1"
   },
   "overrides": {
     "serverless-offline": {
@@ -20,8 +20,8 @@
     }
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.147",
-    "serverless-offline": "^11.0.0",
-    "typescript": "^5.8.2"
+    "@types/aws-lambda": "^8.10.150",
+    "serverless-offline": "^14.4.0",
+    "typescript": "^5.8.3"
   }
 }
